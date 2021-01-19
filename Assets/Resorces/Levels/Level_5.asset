@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c115bfdea08add4468bfad8d99eab176, type: 3}
+  m_Name: Level_5
+  m_EditorClassIdentifier: 
+  speedRotation1: 5
+  timeRotation1: 0.5
+  speedRotation2: -5
+  timeRotation2: 0.5
+  speedRotation3: 3
+  timeRotation3: 1
+  speedRotation4: -3
+  timeRotation4: 0.3
+  backgroundSkin: {r: 0.2924528, g: 0.15864186, b: 0.15864186, a: 0}
+  enemySkin: {fileID: 21300000, guid: 1d56774d413474042876db10aa6f183d, type: 3}
+  countKnife: 10
+  appleProbability: 0.2
+  force: 300
+  timeDelay: 0.1
+  boss: 1
+  newSkin: {fileID: 11400000, guid: 30254beebb73e4c43a50cff1161d67ab, type: 2}
