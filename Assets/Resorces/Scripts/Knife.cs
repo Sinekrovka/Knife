@@ -11,12 +11,14 @@ public class Knife : MonoBehaviour
     
     private SpriteRenderer spr;
     private Rigidbody2D rb2d;
+	private int z;
     
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         spr = GetComponent<SpriteRenderer>();
         spr.sprite = knife.Knife;
+		z=0;
     }
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -50,5 +52,10 @@ public class Knife : MonoBehaviour
             //transform.Rotate(new Vector3(0,0,transform.rotation.z), Random.Range(-8f, 0f));
             rb2d.gravityScale = 3;
         }
+		if(z<2)
+		{
+			spr.sprite = knife.Knife;
+			++z;
+		}
     }
 }
